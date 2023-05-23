@@ -26,6 +26,8 @@ h2, h3 {
 h4 {
     color: var(--primary-color);
     font-family: var(--primary-font-family);
+    margin-bottom: 17px;
+    margin-top: 17px;
 }
 
 p {
@@ -156,7 +158,11 @@ p {
   h4 {
     font-size: 20px;
   }
-  
+
+  h4 .quote {
+    font-size: 15px;
+  }
+
   p {
     font-size: 14px;
   } 
@@ -171,15 +177,26 @@ p {
 
 }
 
-@media (max-width: 385px) {
+@media (max-width: 391px) {
   h1 {
     font-size: 22px;
   }
 
-  h2, h3 {
+  h2 {
     font-size: 18px;
   }
 
+  h3 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h4 .quote {
+    font-size: 11px;
+  }
   .fa-solid {
     display: block;
     margin-top: 5px;
