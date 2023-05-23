@@ -93,9 +93,9 @@ a .fa-solid {
 }
 
 .profilefoto {
-margin-top: 50px;
-  max-width: 172px;
-  max-height: 172px;
+    margin: 30px auto;
+    max-width: 263px;
+    max-height: 263px;
 }
 
 .quote {
@@ -171,10 +171,6 @@ p {
     display: block;
     margin-top: 5px;
   }
-  .profilefoto {
-    max-height: 168px;
-  }
-
 }
 
 @media (max-width: 391px) {
