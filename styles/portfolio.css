@@ -49,6 +49,7 @@ a .fa-solid {
 
 .profilefoto {
   max-width: 172px;
+  max-height: 172px;
 }
 @media (max-width: 581px) {
   h1 {
