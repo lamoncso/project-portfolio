@@ -1,77 +1,87 @@
 :root {
-    --primary-color: #CBE4DE;
-    --primary-color-2: white;
-    --secondary-color: #0E8388;
-    --tertiary-color: #2E4F4F;
-    --quaternary-color: #2C3333;
-    --primary-font-family: 'Roboto Mono', monospace;
-    --secondary-font-family: 'Poppins', serif;
+  --primary-color: #cbe4de;
+  --primary-color-2: white;
+  --secondary-color: #0e8388;
+  --tertiary-color: #2e4f4f;
+  --color-bg-hover: #a4d4d6;
+  --quaternary-color: #2c3333;
+  --primary-font-family: "Roboto Mono", monospace;
+  --secondary-font-family: "Poppins", serif;
 }
 
 h1 {
-    font-family: var(--primary-font-family);
-    background-color: transparent;
-    line-height: 1.25em;
-    font-size: 52px;
-    margin-bottom: 25px;
+  font-family: var(--primary-font-family);
+  background-color: transparent;
+  line-height: 1.25em;
+  font-size: 52px;
+  margin-bottom: 25px;
 }
 
 h2 {
-    color: var(--primary-color-2);
-    font-family: var(--secondary-font-family);
+  color: var(--primary-color-2);
+  font-family: var(--secondary-font-family);
 }
 
 .hero {
-background-color: var(--secondary-color);
-color: var(--primary-color);
-padding: 15px 0;
-text-align: center;
-border-radius: 4px;
-margin:auto 5px
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 4px;
+  margin: auto 5px;
 }
 
 a .fa-solid {
-    color: var(--primary-color-2)
+  color: var(--primary-color-2);
+}
+
+.btn-light {
+  color: var(--secondary-color);
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.btn-light:hover {
+  color: var(--primary-color-2);
+  background-color: var(--color-bg-hover);
 }
 
 .profilefoto {
-    max-width: 172px;
+  max-width: 172px;
 }
-@media (max-width:581px) {
-h1{
-        font-size:38px;
-    }
+@media (max-width: 581px) {
+  h1 {
+    font-size: 38px;
+  }
 
-    h2 {
-        font-size:24px;
-    }
+  h2 {
+    font-size: 24px;
+  }
 
-    .fa-solid {
-        display:block;
-        margin-top: 5px;
-
-    }
-    .profilefoto {
-        max-height: 168px;
-    }
+  .fa-solid {
+    display: block;
+    margin-top: 5px;
+  }
+  .profilefoto {
+    max-height: 168px;
+  }
 }
 
-@media (max-width:385px) {
+@media (max-width: 385px) {
+  h1 {
+    font-size: 22px;
+  }
 
-    h1{
-        font-size:22px;
-    }
+  h2 {
+    font-size: 18px;
+  }
 
-    h2 {
-        font-size:18px;
-    }
-
-    .fa-solid {
-        display:block;
-        margin-top: 5px;
-
-    }
-    .profilefoto {
-        max-height: 168px;
-    }
+  .fa-solid {
+    display: block;
+    margin-top: 5px;
+  }
+  .profilefoto {
+    max-height: 168px;
+  }
 }
