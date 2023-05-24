@@ -8,6 +8,7 @@
   --quaternary-color: #2c3333;
   --primary-font-family: "Roboto Mono", monospace;
   --secondary-font-family: "Poppins", serif;
+  --primary-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 h1 {
@@ -18,22 +19,23 @@ h1 {
   margin-bottom: 25px;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: var(--primary-color-2);
   font-family: var(--secondary-font-family);
 }
 
 h4 {
-    color: var(--primary-color);
-    font-family: var(--primary-font-family);
-    margin-bottom: 17px;
-    margin-top: 17px;
+  color: var(--primary-color);
+  font-family: var(--primary-font-family);
+  margin-bottom: 17px;
+  margin-top: 17px;
 }
 
 p {
-    color: var(--tertiary-color);
-    font-family: var(--secondary-font-family);
-    line-height: 1.7;
+  color: var(--tertiary-color);
+  font-family: var(--secondary-font-family);
+  line-height: 1.7;
 }
 
 .hero {
@@ -49,7 +51,7 @@ a .fa-solid {
 }
 
 .fluid-container {
-     margin: auto 5px;
+  margin: auto 5px;
 }
 
 .primary-button {
@@ -65,8 +67,12 @@ a .fa-solid {
   background-color: var(--color-bg-hover-light);
 }
 
+.project-img {
+    box-shadow: var(--primary-box-shadow);
+}
+
 .row {
-    margin: 0 60px;
+  margin: 0 60px;
 }
 
 .secondary-button {
@@ -81,68 +87,75 @@ a .fa-solid {
 }
 
 .secondary-button:hover {
-    color: var(--secondary-color);
-    background-color: var(--color-bg-hover-dark);
-    border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  background-color: var(--color-bg-hover-dark);
+  border: 1px solid var(--secondary-color);
 }
 
 .project-content {
-    background-color: #f2f7f6;
-    padding: 30px 100px; 
-    border-radius: 4px;
+  background-color: #f2f7f6;
+  padding: 30px 100px;
+  border-radius: 4px;
 }
 
 .profilefoto {
-    margin: 30px auto;
-    max-width: 263px;
-    max-height: 263px;
+  margin: 30px auto;
+  max-width: 263px;
+  max-height: 263px;
 }
 
 .quote {
-    font-family: var(--secondary-font-family);
-    color: var(--primary-color-2);
+  font-family: var(--secondary-font-family);
+  color: var(--primary-color-2);
 }
 
-@media (max-width:1300px){
- .project-img {
-    margin-top:50px;
-    }
-.project-content {
-    padding:5px 20px;
+@media (max-width: 1300px) {
+  .project-img {
+    margin-top: 50px;
+  }
+  .project-content {
+    padding: 5px 20px;
   }
   .row {
     margin: 0 auto;
   }
 }
 
-@media (max-width:991px) {
-
-h4 {
+@media (max-width: 991px) {
+  h4 {
     text-align: center;
-}
+  }
 
-p {
+  p {
     text-align: center;
-}
+  }
 
-.btn {
-    display:block;
+  .btn {
+    display: block;
     max-width: 350px;
-    margin: 35px auto;
-}
+    margin: 10px auto;
+  }
 
-.primary-button {
+  .primary-button {
     max-width: 160px;
     margin: 10px auto;
-}
+  }
 
- .project-content {
-    padding:5px 20px;
+  .project-content {
+    padding: 5px 20px;
+  }
+
+  .project-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: var(--primary-box-shadow);
   }
 
   .row {
     margin: 0 auto;
-    padding: 5px 10px
+    padding: 5px 10px;
   }
 }
 
@@ -165,8 +178,8 @@ p {
 
   p {
     font-size: 14px;
-  } 
-  
+  }
+
   .fa-solid {
     display: block;
     margin-top: 5px;
