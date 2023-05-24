@@ -48,7 +48,7 @@ p {
 }
 
 .about-section-welcome {
-    background-color: var(--secondary-color);
+    background-color: #f2f7f6;
     border-radius:6px;
 }
 
@@ -142,10 +142,6 @@ a .fa-solid {
 
   .about-section-content {
     text-align: center;
-  }
-
-  .about-section-welcome {
- 
   }
 
   .btn {
