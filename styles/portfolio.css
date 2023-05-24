@@ -38,6 +38,17 @@ p {
   line-height: 1.7;
 }
 
+.about-section-content {
+    padding: 20px 50px;
+    text-align: start;
+}
+
+.about-section-welcome {
+    background-color: var(--secondary-color);
+    border-radius:4px;
+    margin-bottom: 20px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -126,6 +137,10 @@ a .fa-solid {
     text-align: center;
   }
 
+  .about-section-content {
+    text-align: center;
+  }
+
   .btn {
     display: block;
     max-width: 350px;
@@ -152,6 +167,10 @@ a .fa-solid {
   .row {
     margin: 0 auto;
     padding: 5px 10px;
+  }
+
+  .welcome-message {
+    text-align: center !important;
   }
 }
 
