@@ -67,10 +67,6 @@ a .fa-solid {
   background-color: var(--color-bg-hover-light);
 }
 
-.project-img {
-    box-shadow: var(--primary-box-shadow);
-}
-
 .row {
   margin: 0 60px;
 }
