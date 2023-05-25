@@ -13,6 +13,7 @@
 
 h1 {
   font-family: var(--primary-font-family);
+  color: var(--primary-color);
   background-color: transparent;
   line-height: 1.25em;
   font-size: 52px;
