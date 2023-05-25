@@ -5,6 +5,7 @@
   --tertiary-color: #2e4f4f;
   --color-bg-hover-light: #a4d4d6;
   --color-bg-hover-dark: #0e7b7f;
+  --color-bg-content: #f2f7f6;
   --quaternary-color: #2c3333;
   --primary-font-family: "Roboto Mono", monospace;
   --secondary-font-family: "Poppins", serif;
@@ -49,7 +50,7 @@ p {
 }
 
 .about-section-welcome {
-    background-color: #f2f7f6;
+    background-color: var(--color-bg-content);
     border-radius:6px;
 }
 
@@ -104,7 +105,7 @@ a .fa-solid {
 }
 
 .project-content {
-  background-color: #f2f7f6;
+  background-color: var(--color-bg-content);
   padding: 30px 100px;
   border-radius: 4px;
 }
