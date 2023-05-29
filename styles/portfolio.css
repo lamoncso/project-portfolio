@@ -44,6 +44,7 @@ p {
 
 .contact {
   color: var(--primary-color);
+  text-align: center;
 }
 
 .contact:hover {
