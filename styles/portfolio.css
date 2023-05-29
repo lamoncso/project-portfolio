@@ -8,7 +8,7 @@
   --color-bg-hover-light: #a4d4d6;
   --color-bg-hover-dark: #0e7b7f;
   --color-bg-content: #f2f7f6;
-  
+
   --primary-font-family: "Roboto Mono", monospace;
   --secondary-font-family: "Poppins", serif;
   --primary-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -43,34 +43,38 @@ p {
 }
 
 .contact {
-color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .contact:hover {
-    color: var(--color-bg-hover-dark);
+  color: var(--color-bg-hover-dark);
 }
 
 .contact-icon {
-    color: var(--tertiary-color);
-    display: block;
-    font-size: 35px;
-    margin-bottom: 10px;
-    text-align: center; 
+  color: var(--tertiary-color);
+  display: block;
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .content-container {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .content {
-    padding: 20px 50px;
-    text-align: start;
-    background-color: var(--color-bg-content);
-    border-radius:6px;
+  padding: 20px 50px;
+  text-align: start;
+  background-color: var(--color-bg-content);
+  border-radius: 6px;
 }
 
-.content h4{
-    margin-bottom: 7px;
+.content h4 {
+  margin-bottom: 7px;
+}
+
+.fluid-container {
+  margin: auto 5px;
 }
 
 .hero {
@@ -79,18 +83,32 @@ color: var(--primary-color);
   padding: 15px 0;
   text-align: center;
   border-radius: 4px;
+  margin-top:70px;
 }
 
 .img-description {
-   line-height: 1.2;
+  line-height: 1.2;
 }
 
-a .fa-solid{
+a .fa-solid {
   color: var(--primary-color-2);
 }
 
-.fluid-container {
-  margin: auto 5px;
+.logo {
+  max-width: 214px;
+}
+
+.nav-link {
+  color: var(--primary-color-2) !important;
+  font-family: var(--primary-font-family) !important;
+}
+
+.nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+.nav-link:hover {
+  color: var(--tertiary-color) !important;
 }
 
 .primary-button {
@@ -118,13 +136,12 @@ a .fa-solid{
 }
 
 .project-img-md {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    box-shadow: var(--primary-box-shadow);
-  }
-
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: var(--primary-box-shadow);
+}
 
 .row {
   margin: 0 60px;
@@ -146,7 +163,6 @@ a .fa-solid{
   background-color: var(--color-bg-hover-dark);
   border: 1px solid var(--secondary-color);
 }
-
 
 .quote {
   font-family: var(--secondary-font-family);
@@ -240,6 +256,10 @@ a .fa-solid{
     display: block;
     margin-top: 5px;
   }
+
+  .logo {
+    max-height: 50px;
+  }
 }
 
 @media (max-width: 391px) {
@@ -266,6 +286,7 @@ a .fa-solid{
     display: block;
     margin-top: 5px;
   }
+
   .profilefoto {
     max-height: 168px;
   }
