@@ -40,18 +40,19 @@ p {
   line-height: 1.7;
 }
 
-.about-section {
+.content-container {
     padding-bottom: 10px;
 }
 
-.about-section-content {
+.content {
     padding: 20px 50px;
     text-align: start;
-}
-
-.about-section-welcome {
     background-color: var(--color-bg-content);
     border-radius:6px;
+}
+
+.content h4{
+    margin-bottom: 7px;
 }
 
 .hero {
@@ -60,6 +61,10 @@ p {
   padding: 15px 0;
   text-align: center;
   border-radius: 4px;
+}
+
+.img-description {
+   line-height: 1.2;
 }
 
 a .fa-solid {
@@ -82,6 +87,26 @@ a .fa-solid {
   color: white;
   background-color: var(--color-bg-hover-light);
 }
+.profilefoto {
+  margin: 30px auto;
+  max-width: 263px;
+  max-height: 263px;
+}
+
+.project-content {
+  background-color: var(--color-bg-content);
+  padding: 30px 100px;
+  border-radius: 4px;
+}
+
+.project-img-md {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: var(--primary-box-shadow);
+  }
+
 
 .row {
   margin: 0 60px;
@@ -104,17 +129,6 @@ a .fa-solid {
   border: 1px solid var(--secondary-color);
 }
 
-.project-content {
-  background-color: var(--color-bg-content);
-  padding: 30px 100px;
-  border-radius: 4px;
-}
-
-.profilefoto {
-  margin: 30px auto;
-  max-width: 263px;
-  max-height: 263px;
-}
 
 .quote {
   font-family: var(--secondary-font-family);
@@ -142,7 +156,7 @@ a .fa-solid {
     text-align: center;
   }
 
-  .about-section-content {
+  .content {
     text-align: center;
   }
 
