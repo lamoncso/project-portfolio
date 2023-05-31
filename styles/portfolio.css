@@ -14,6 +14,14 @@
   --primary-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+body {
+  margin-bottom: 40px;
+}
+
+footer {
+  margin: 0 247px;
+}
+
 h1 {
   font-family: var(--primary-font-family);
   color: var(--primary-color);
@@ -42,23 +50,34 @@ p {
   line-height: 1.7;
 }
 
-.contact {
-  color: var(--primary-color);
-  text-align: center;
+.contact-box {
+  background-color: var(--color-bg-content);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
-.contact:hover {
-  color: var(--color-bg-hover-dark);
+.contact-box p {
+  margin-bottom: 5px;
 }
-
 .contact-icon {
   color: var(--tertiary-color);
-  display: block;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  margin: 5px 20px;
+  padding: 10px 14px;
   font-size: 35px;
-  margin-bottom: 10px;
-  text-align: center;
+  transition: all 100ms ease-in-out; 
 }
 
+.contact-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact-icon:hover {
+  color: var(--color-bg-hover-dark);
+}
 .content-container {
   padding-bottom: 10px;
 }
@@ -165,12 +184,36 @@ a .fa-solid {
   border: 1px solid var(--secondary-color);
 }
 
-.quote {
+a.social-links {
+  text-align: center; 
+  text-decoration: none;
+}
+
+i.social-icon {
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  color: var(--primary-color);
+  margin: 5px 20px;
+  padding: 10px 14px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-icon:hover, .email:hover{
+  color: var(--tertiary-color);
+}
+
+.quote, .email {
   font-family: var(--secondary-font-family);
   color: var(--primary-color-2);
 }
 
 @media (max-width: 1300px) {
+
+  footer {
+  margin: 0 154px;
+}
+
   .project-img {
     margin-top: 30px;
   }
@@ -183,6 +226,11 @@ a .fa-solid {
 }
 
 @media (max-width: 991px) {
+
+  footer {
+  margin: 0;
+  }
+
   h4 {
     text-align: center;
   }
@@ -191,9 +239,9 @@ a .fa-solid {
     text-align: center;
   }
 
-  .content {
-    text-align: center;
-  }
+ .contact-box {
+  padding: 30px 80px;
+ }
 
   .btn {
     display: block;
@@ -201,6 +249,9 @@ a .fa-solid {
     margin: 10px auto;
   }
 
+ .content {
+    text-align: center;
+  }
   .img-about-me {
     margin-top: 20px;
   }
@@ -233,6 +284,7 @@ a .fa-solid {
 }
 
 @media (max-width: 581px) {
+  
   h1 {
     font-size: 38px;
   }
@@ -251,6 +303,10 @@ a .fa-solid {
 
   p {
     font-size: 14px;
+  }
+
+  .contact-box {
+    padding: 20px 40px;
   }
 
   .fa-solid {
