@@ -18,10 +18,6 @@ body {
   margin-bottom: 40px;
 }
 
-footer {
-  margin: 0 247px;
-}
-
 h1 {
   font-family: var(--primary-font-family);
   color: var(--primary-color);
@@ -210,10 +206,6 @@ i.social-icon {
 
 @media (max-width: 1300px) {
 
-  footer {
-  margin: 0 154px;
-}
-
   .project-img {
     margin-top: 30px;
   }
@@ -226,10 +218,6 @@ i.social-icon {
 }
 
 @media (max-width: 991px) {
-
-  footer {
-  margin: 0;
-  }
 
   h4 {
     text-align: center;
@@ -306,7 +294,8 @@ i.social-icon {
   }
 
   .contact-box {
-    padding: 20px 40px;
+    margin-top: -13px;
+    padding: 20px 10px;
   }
 
   .fa-solid {
