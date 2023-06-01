@@ -321,6 +321,10 @@ i.social-icon {
   .logo {
     max-height: 50px;
   }
+
+  .skills img {
+    max-height: 42px;
+  }
 }
 
 @media (max-width: 391px) {
