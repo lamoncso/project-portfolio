@@ -46,6 +46,10 @@ p {
   line-height: 1.7;
 }
 
+.coding-skills a img:hover {
+  scale: 1.2;
+}
+
 .contact-box {
   background-color: var(--color-bg-content);
   padding: 30px 120px;
